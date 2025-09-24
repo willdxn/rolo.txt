@@ -44,12 +44,10 @@ You might use 'p:{NAME}' to log people, 'rat:5' to log ratings for things you've
 
 
 future addons:
-index.txt-cli
-txt-bookmarker
-txt-diary
-txt-crm
-txt-zotero
-rolotext
-index.to.do
-index.txt-crm
-index.txt
+rolo.txt-cli
+rolo-bookmarker
+rolo-diary
+rolo-crm
+rolo-zotero
+rolo-todo-bridge
+rolo.txt-to-html
