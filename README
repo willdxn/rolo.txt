@@ -1,0 +1,55 @@
+rolo.txt is everything you've ever consumed in one place. Essentially a machine readable, sortable and plain text based alternative to the rolodex.
+
+If todo.txt is about stuff you want to do, this is about stuff you've done.
+
+### It can be a substitute for the following:
+- Diary software.
+- 'Read later' or bookmarking software - with the additional ability to add notes.
+- Book or film tracking software
+- Meeting notes
+- Holding voice notes and associated transcripts
+- Categorising letters and scanned notes
+
+*If you save articles, notes, diary entries and recordings in different systems, this will solve the problem of working across devices, and ensure you are more easily able to search through what you already have.*
+
+### How does it work?
+- All of the text content is saved to one file, which is continually appended to. In it's standard form (on which I suggest you iterate) it follows a syntax heavily borrowed from todo.txt (see todotxt.org, and hence the GNU licence)
+- Each 'index card' is separated from the previous with a line containing `---`.
+  - The 'header' contains the card type, date of entry, card title, categories, contexts and key:value pairs. It will be familiar to those who have used todo.txt.
+  - *Need an image to explain how this works*
+  - (Optional) the line after the header can contain a url or the link within a data folder to the location of a reference file. OCR and machine transcription have not yet improved to a point where they can't be turned into plain text. Plus, sometimes you may want to refer to the article that you are commenting on.
+  - The rest of the card can include as many lines of plain text. 
+- It is extensible. An extension will allow text in curly brackets `{}` to be appended to a separate todo.txt.
+
+### Why this?
+- It can be extended very easily to your use case like many other systems.
+- It will feel familiar to those who have used todo.txt in the past.
+- It allows for easier searching than other solutions within a single text editor, across platform through almost any text editor.
+
+Example entry:
+``
+--
+(AU) 2025-09-24 Meeting with Prof. Lee +thesis @university p:jlee
+/data/audio/2025/2025-09-24-meet-lee.m4a
+- Discussed chapter 2 outline; action items captured below.
+- {(A) Email Prof. Lee the revised outline +thesis @email due:2025-09-26}
+---
+(WP) 2025-09-18 Can the world’s largest listed hedge fund rebound? +finances
+https://www.ft.com/content/35811f33-0832-4a60-8c4d-8ab986a1faf1
+- Big problems at Man group as their shareprice continues to plummet
+---
+``
+
+You might use 'p:{NAME}' to log people, 'rat:5' to log ratings for things you've read, 
+
+
+future addons:
+index.txt-cli
+txt-bookmarker
+txt-diary
+txt-crm
+txt-zotero
+rolotext
+index.to.do
+index.txt-crm
+index.txt
